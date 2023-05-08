@@ -1,0 +1,16 @@
+{
+  "name": "alfred",
+  "version": "1.0.0",
+  "scripts": {
+    "app": "yarn workspace app start",
+    "cms": "yarn workspace cms develop"
+  },
+  "workspaces": [
+    "app",
+    "cms",
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true
+}
